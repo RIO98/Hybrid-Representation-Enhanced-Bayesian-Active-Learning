@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# Project testing files
+temp_mhd2png.py
+test_data_loader.py
+deprecated/
+bayesian_al_methods_slice.py
+
+
 # Distribution / packaging
 .Python
 build/
@@ -109,6 +116,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Pycharm project settings
+.idea/
 
 # Spyder project settings
 .spyderproject
