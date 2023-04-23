@@ -7,10 +7,7 @@ __pycache__/
 *.so
 
 # Project testing files
-temp_mhd2png.py
-test_data_loader.py
-deprecated/
-bayesian_al_methods_slice.py
+
 
 
 # Distribution / packaging
