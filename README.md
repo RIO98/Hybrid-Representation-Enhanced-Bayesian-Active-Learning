@@ -8,7 +8,7 @@ for Bayesian Active Learning in Musculoskeletal Segmentation of Lower Extremitie
 
 * Mechanism of uncertainty-based and density-based selection strategies (previous work).
 <p align="center">
-  <img src="figures/selection_strategies.jpg" width="700">
+  <img src="figures/selection_strategies.jpg" width="800">
 </p>
 
 ## Updates
@@ -49,7 +49,7 @@ We adopted Bayesian U-net as the segmentation model of our BAL framework.
 A modified version based on [here](https://github.com/yuta-hi/pytorch_bayesian_unet/tree/master) is implemented in our work.
 * Network architecture of our segmentation model, where uncertainty has been proven positively correlated with the quality of segmentation.
 <p align="center">
-  <img src="figures/segment_model.jpg" width="700">
+  <img src="figures/segment_model.jpg" width="800">
 </p>
 
 ```
