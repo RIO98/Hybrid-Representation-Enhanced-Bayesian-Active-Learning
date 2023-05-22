@@ -1,0 +1,17 @@
+six
+pandas
+scipy
+scikit-image
+scikit_learn
+numpy
+medpy
+connected-components-3d
+opencv-python
+SimpleITK
+joblib
+tqdm
+openpyxl
+matplotlib
+seaborn
+tensorboardX
+torch==1.13
