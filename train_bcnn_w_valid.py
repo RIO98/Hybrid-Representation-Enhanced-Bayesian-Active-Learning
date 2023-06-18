@@ -172,7 +172,8 @@ def train_phase(predictor, train, valid, args):
         if (itr + 1) % args.valid_freq == 0:
             if itr < 1:
                 continue
-            print("validation")
+            print("Start validation\n")
+            model.eval()
             val_loss_temp = 0
             val_dc_temp = 0
             sample_val_images = []
@@ -224,6 +225,7 @@ def train_phase(predictor, train, valid, args):
 
             writer.add_scalar('val_loss', total_val_loss, itr + 1)
             writer.add_scalar('val_dc', total_val_dc, itr + 1)
+            model.train()
 
         if (itr + 1) % 5000 == 0:
             torch.save(model.state_dict(), os.path.join(args.model_save_dir, 'model_iter{}.pth'.format(itr + 1)))
