@@ -12,13 +12,14 @@ for Bayesian Active Learning in Musculoskeletal Segmentation of Lower Extremitie
 </p>
 
 ## Updates
+* [2024-01-10] The paper was accepted by IJCARS!
 * [2023-04-28] Update data augmentation code for elastic distortion.
 * [2023-04-23] Update multiprocessing code for acceleration.
 * [2023-04-01] The codebase [Hybrid-Representation-Enhanced-Bayesian-Active-Learning](https://github.com/RIO98/Hybrid-Representation-Enhanced-Bayesian-Active-Learning) has been uploaded.
 
 ## Abstract
 Purpose: Obtaining manual annotations to train deep learning (DL) models for auto-segmentation is often time-consuming.
-Uncertainty-based Bayesian active learning (BAL) is a widely-adopted method to reduce annotation efforts.
+Uncertainty-based Bayesian active learning (BAL) is a widely adopted method to reduce annotation efforts.
 Based on BAL,
 this study introduces a hybrid representation-enhanced sampling strategy
 that integrates density and diversity criteria
@@ -29,8 +30,7 @@ The experiments are performed on two lower extremity (LE)
 datasets of MRI and CT images by a BAL framework based on Bayesian U-net.
 Our method selects uncertain samples with high density and diversity for manual revision,
 optimizing for maximal similarity to unlabeled instances and minimal similarity to existing training data.
-We assess the accuracy and efficiency using Dice and a proposed metric called reduced annotation cost (RAC),
-respectively.
+We assess accuracy and efficiency using Dice and a proposed metric called reduced annotation cost (RAC).
 We further evaluate the impact of various acquisition rules on BAL performance
 and design an ablation study for effectiveness estimation.
 
@@ -41,7 +41,7 @@ Our ablation study in volume-wise acquisition shows
 that the combination of density and diversity criteria outperforms
 solely using either of them in musculoskeletal segmentation.
 
-Conclusion: Our sampling method is proven efficient in reducing annotation costs in image segmentation tasks.
+Conclusion: Our sampling method has proven efficient in reducing annotation costs in image segmentation tasks.
 The combination of the proposed method and our BAL framework provides a semi-automatic way for efficient annotation of medical image datasets.
 
 ## Segmentation model
@@ -74,7 +74,7 @@ A modified version based on [here](https://github.com/yuta-hi/pytorch_bayesian_u
 
 ## Examples
 ### Thyroid Segmentation
-Binary segmetnation of thyroid nodules on Ultrasonography. This example's dataset contributed by T. Wunderling and can be downloaded from [here](https://opencas.webarchiv.kit.edu/?q=node/29).
+Binary segmentation of thyroid nodules on Ultrasonography. This example's dataset was contributed by T. Wunderling and can be downloaded from [here](https://opencas.webarchiv.kit.edu/?q=node/29).
 ```
 @inproceedings{wunderling2017comparison,
   title={Comparison of thyroid segmentation techniques for 3D ultrasound},
@@ -122,5 +122,13 @@ run run_BayesianAL_atuo_US.sh # run the BAL framework with specified acquisition
   <img src="figures/table.png" width="500">
 </p>
 
-## On construction
+## Cite this work
+```
+@article{li2023hybrid,
+  title={Hybrid Representation-Enhanced Sampling for Bayesian Active Learning in Musculoskeletal Segmentation of Lower Extremities},
+  author={Li, Ganping and Otake, Yoshito and Soufi, Mazen and Taniguchi, Masashi and Yagi, Masahide and Ichihashi, Noriaki and Uemura, Keisuke and Takao, Masaki and Sugano, Nobuhiko and Sato, Yoshinobu},
+  journal={arXiv preprint arXiv:2307.13986},
+  year={2023}
+}
+```
 
