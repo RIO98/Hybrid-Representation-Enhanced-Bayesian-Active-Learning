@@ -13,6 +13,7 @@ for Bayesian Active Learning in Musculoskeletal Segmentation of Lower Extremitie
 
 ## Updates
 * [2024-01-10] The paper was accepted by IJCARS!
+* [2023-07-28] Manuscript uploaded (https://arxiv.org/abs/2307.13986).
 * [2023-04-28] Update data augmentation code for elastic distortion.
 * [2023-04-23] Update multiprocessing code for acceleration.
 * [2023-04-01] The codebase [Hybrid-Representation-Enhanced-Bayesian-Active-Learning](https://github.com/RIO98/Hybrid-Representation-Enhanced-Bayesian-Active-Learning) has been uploaded.
