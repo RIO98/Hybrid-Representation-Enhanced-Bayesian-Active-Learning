@@ -125,11 +125,13 @@ run run_BayesianAL_atuo_US.sh # run the BAL framework with specified acquisition
 
 ## Cite this work
 ```
-@article{li2023hybrid,
-  title={Hybrid Representation-Enhanced Sampling for Bayesian Active Learning in Musculoskeletal Segmentation of Lower Extremities},
+@article{li2024hybrid,
+  title={Hybrid representation-enhanced sampling for Bayesian active learning in musculoskeletal segmentation of lower extremities},
   author={Li, Ganping and Otake, Yoshito and Soufi, Mazen and Taniguchi, Masashi and Yagi, Masahide and Ichihashi, Noriaki and Uemura, Keisuke and Takao, Masaki and Sugano, Nobuhiko and Sato, Yoshinobu},
-  journal={arXiv preprint arXiv:2307.13986},
-  year={2023}
+  journal={International Journal of Computer Assisted Radiology and Surgery},
+  pages={1--10},
+  year={2024},
+  publisher={Springer}
 }
 ```
 
